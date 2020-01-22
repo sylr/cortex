@@ -85,3 +85,7 @@ replace git.apache.org/thrift.git => github.com/apache/thrift v0.0.0-20180902110
 
 // Override reference that causes an error from Go proxy - see https://github.com/golang/go/issues/33558
 replace k8s.io/client-go => k8s.io/client-go v0.0.0-20190620085101-78d2af792bab
+
+replace github.com/prometheus/prometheus => github.com/sylr/prometheus v1.8.2-0.20200122134517-d0cc0f0b031a
+
+replace github.com/thanos-io/thanos => github.com/sylr/thanos v0.8.1-0.20200122135430-d0e42a448aa6
